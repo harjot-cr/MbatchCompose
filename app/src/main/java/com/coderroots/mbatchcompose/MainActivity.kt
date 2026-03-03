@@ -33,7 +33,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MbatchComposeTheme {
-                LoginScreen(this)
+                alertDialog()
+//                LoginScreen(this)
             }
         }
     }
